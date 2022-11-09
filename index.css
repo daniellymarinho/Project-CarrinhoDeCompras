@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap");
+*{
+    margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.name-store {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.style-head {
+  display: flex;
+  justify-content: space-between;
+  width: 420px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+
+  font-size: 17px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.list-item {
+  display: flex;
+  list-style: none;
+  width: 420px;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: rgb(228, 228, 228);
+  margin-bottom: 10px;
+}
+
+.item-name {
+  width: 420px;
+}
+
+.item-price {
+  width: 80px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+.style-total {
+  background-color: rgb(235, 233, 233);
+  width: 420px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  width: 420px;
+
+  font-size: 17px;
+  background-color: rgb(235, 233, 233);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  background-color: rgb(37, 167, 124);
+  border: 1px solid rgb(60, 239, 179);
+  border-radius: 10px;
+  width: 450px;
+  padding: 15px;
+  font-size: 17px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+
